@@ -51,7 +51,8 @@ public class LoginController implements Initializable {
             if (loginModel.isLogin(username.getText(), password.getText())) {
 
 
-          isConnected.setText("Username and password is correct");
+          isConnected.setText("Correct username and password");
+          isConnected.setStyle("-fx-background-color: #2196F3");
           Stage primaryStage = new Stage();
            FXMLLoader loader = new FXMLLoader();
            loader.setRoot(new AnchorPane());
