@@ -5,6 +5,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
@@ -53,6 +54,8 @@ public class LoginController implements Initializable {
 
           isConnected.setText("Correct username and password");
           isConnected.setStyle("-fx-background-color: #2196F3");
+
+          ((Node)event.getSource()).getScene().getWindow().hide();
           Stage primaryStage = new Stage();
            FXMLLoader loader = new FXMLLoader();
            loader.setRoot(new AnchorPane());
