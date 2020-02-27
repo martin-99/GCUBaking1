@@ -14,7 +14,6 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Paint;
 import javafx.stage.Stage;
-import sample.Controller.AdminPanelController;
 import sample.Model.LoginModel;
 
 import java.io.IOException;
