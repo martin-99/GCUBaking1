@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="826588cd-8092-4c55-a6d7-2e43c5e0c9b7" name="Default Changelist" comment="" />
+    <list default="true" id="159c5339-50b4-4dd0-9a3f-da8465144b5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_30_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_30_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GCUBaking/sample/Admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GCUBaking/sample/Admin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GCUBaking/sample/AdminPanelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GCUBaking/sample/AdminPanelController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GCUBaking/sample/Controller/NewController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GCUBaking/sample/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GCUBaking/sample/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GCUBaking/sample/Model/LoginModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GCUBaking/sample/new.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Admin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/AdminPanelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/AdminPanelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/LoginModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/LoginModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/NewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/new.fxml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1YOOBtMLDL1pYwBSLDpoxMTfQuo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1YPMgOexUuxGOGnjOj8TSopR51g" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -19,56 +57,36 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sqlite-jdbc-3.30.1.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/sqlite-jdbc-3.30.1.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
       <module name="GCUBaking" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <module name="GCUBaking" />
-      <useClassPathOnly />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Arquillian JUnit.Unnamed" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="826588cd-8092-4c55-a6d7-2e43c5e0c9b7" name="Default Changelist" comment="" />
-      <created>1582810041216</created>
+      <changelist id="159c5339-50b4-4dd0-9a3f-da8465144b5e" name="Default Changelist" comment="" />
+      <created>1582839886455</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582810041216</updated>
-      <workItem from="1582810045530" duration="1696000" />
-      <workItem from="1582813232302" duration="750000" />
-      <workItem from="1582814427069" duration="986000" />
-      <workItem from="1582816037140" duration="2569000" />
+      <updated>1582839886455</updated>
+      <workItem from="1582839891802" duration="4807000" />
     </task>
     <servers />
   </component>
@@ -76,41 +94,45 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582810077067">
+    <state x="275" y="25" key="#SQL_Dialects" timestamp="1582842463758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582810077067" />
-    <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582810073106">
+    <state x="275" y="25" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1582842463758" />
+    <state x="409" y="32" key="#Unnamed" timestamp="1582839964812">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1582810073106" />
-    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1582814734759">
+    <state x="409" y="32" key="#Unnamed/0.0.1366.728@0.0.1366.728" timestamp="1582839964812" />
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582841719012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582814734759" />
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1582818322194">
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582841719012" />
+    <state x="412" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582839959630">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582818322194" />
-    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1582818322194">
+    <state x="412" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1582839959630" />
+    <state x="389" y="108" key="FileChooserDialogImpl" timestamp="1582842460246">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582818322194" />
-    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1582818322193">
+    <state x="389" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582842460246" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582844729892">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582818322193" />
-    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1582818322194">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582844729892" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1582844729892">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582818322194" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1582810160842">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582844729892" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1582844729892">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582810160842" />
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1582816037162">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582844729892" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1582844729892">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582816037162" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582844729892" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1582840102452">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582840102452" />
   </component>
 </project>

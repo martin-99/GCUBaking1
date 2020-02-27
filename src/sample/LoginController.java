@@ -14,7 +14,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Paint;
 import javafx.stage.Stage;
-import sample.Model.LoginModel;
+import sample.LoginModel;
 
 import java.io.IOException;
 import java.net.URL;
