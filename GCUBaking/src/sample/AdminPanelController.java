@@ -49,9 +49,9 @@ public void AddStudent(ActionEvent event) throws IOException {
     ((Node)event.getSource()).getScene().getWindow().hide();
     Stage primaryStage = new Stage();
     FXMLLoader loader = new FXMLLoader();
-    loader.setRoot(new AnchorPane());
 
-    Pane scene = loader.load(getClass().getResource("src/sample/AddStudent.fxml").openStream());
+
+    Pane scene = loader.load(getClass().getResource("AddStudent.fxml").openStream());
     primaryStage.setTitle("Add Student");
     primaryStage.setScene(new Scene(scene));
     primaryStage.show();
