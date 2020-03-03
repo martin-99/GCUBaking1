@@ -41,6 +41,8 @@ public boolean isLogin(String user,String pass) throws SQLException {
         }
         }catch (Exception e){
         return false;
+        }finally {
+                connection.close();
         }
         }
         }
