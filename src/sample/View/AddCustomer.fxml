@@ -14,7 +14,10 @@
       <TextField fx:id="studentEmail" alignment="CENTER" layoutX="284.0" layoutY="277.0" prefHeight="47.0" prefWidth="255.0" promptText="Email" />
       <TextField fx:id="studentName" alignment="CENTER" layoutX="286.0" layoutY="146.0" prefHeight="54.0" prefWidth="119.0" promptText="Name" />
       <TextField fx:id="studentSurname" alignment="CENTER" layoutX="420.0" layoutY="146.0" prefHeight="54.0" prefWidth="119.0" promptText="Surname" />
-      <Button layoutX="284.0" layoutY="345.0" mnemonicParsing="false" onAction="#AddCustomer" prefHeight="54.0" prefWidth="255.0" style="-fx-background-color: #2196F3;" text="Button" />
+      <Button layoutX="284.0" layoutY="345.0" mnemonicParsing="false" onAction="#AddCustomer" prefHeight="54.0" prefWidth="255.0" style="-fx-background-color: #2196F3; -fx-text-fill: white;" text="Add Customer">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Button>
       <Label alignment="CENTER" layoutX="283.0" layoutY="85.0" prefHeight="35.0" prefWidth="255.0" text="Add  Customer">
          <font>
             <Font name="System Bold" size="24.0" />
@@ -28,6 +31,11 @@
                </image>
             </ImageView>
          </graphic>
+      </Button>
+      <Button layoutX="679.0" layoutY="22.0" mnemonicParsing="false" onAction="#ViewCustomer" prefHeight="38.0" prefWidth="107.0" style="-fx-background-color: #2196F3; -fx-text-fill: white;" text="View Customers">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
       </Button>
    </children>
 </AnchorPane>

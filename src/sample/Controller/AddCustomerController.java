@@ -29,6 +29,11 @@ public class AddCustomerController {
         AddCustomerModel studentModel = new AddCustomerModel();
         studentModel.AddCustomer(studentName.getText(),studentSurname.getText(),studentPhone.getText(),studentEmail.getText());
 
+        studentName.setText("");
+        studentSurname.setText("");
+        studentPhone.setText("");
+        studentEmail.setText("");
+
     }
     @FXML
     public void goBack(ActionEvent event) throws IOException {
@@ -39,6 +44,16 @@ public class AddCustomerController {
         Pane scene = loader.load(getClass().getResource("/sample/View/Admin.fxml").openStream());
         AdminPanelController adminPanelController = (AdminPanelController) loader.getController();
         primaryStage.setTitle("Admin Panel");
+        primaryStage.setScene(new Scene(scene));
+        primaryStage.show();
+    }
+
+    public void ViewCustomer(ActionEvent event) throws IOException {
+        ((Node)event.getSource()).getScene().getWindow().hide();
+        Stage primaryStage = new Stage();
+        FXMLLoader loader = new FXMLLoader();
+        Pane scene = loader.load(getClass().getResource("/sample/View/ViewCustomers.fxml").openStream());
+        primaryStage.setTitle("View Customer");
         primaryStage.setScene(new Scene(scene));
         primaryStage.show();
     }

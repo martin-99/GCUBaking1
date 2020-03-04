@@ -32,7 +32,7 @@ public class AddCustomerModel {
             preparedStatement.setString(3, phone);
             preparedStatement.setString(4, email);
             preparedStatement.executeUpdate();
-            System.out.println("it is supposed to work");
+
         } catch (Exception e) {
             e.printStackTrace();
         }finally {
