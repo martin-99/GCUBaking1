@@ -49,7 +49,7 @@
                   <Image url="@/sample/static/education_50px.png" />
                </image>
             </ImageView>
-            <Button layoutY="142.0" prefHeight="28.0" prefWidth="200.0" style="-fx-background-color: #2196F3; -fx-text-fill: white;" text="View Course" />
+            <Button layoutY="142.0" onAction="#ViewCustomer" prefHeight="28.0" prefWidth="200.0" style="-fx-background-color: #2196F3; -fx-text-fill: white;" text="View Course" />
 
          </children>
       </Pane>
@@ -60,7 +60,7 @@
                   <Image url="@/sample/static/user_100px.png" />
                </image>
             </ImageView>
-            <Button layoutY="142.0" prefHeight="28.0" prefWidth="200.0" style="-fx-background-color: #2196F3; -fx-text-fill: white;" text="View Users" />
+            <Button layoutY="142.0" onAction="#ViewCustomer" prefHeight="28.0" prefWidth="200.0" style="-fx-background-color: #2196F3; -fx-text-fill: white;" text="View Users" />
          </children>
       </Pane>
       <Pane layoutX="529.0" layoutY="361.0" prefHeight="170.0" prefWidth="200.0" style="-fx-background-color: #fff;">
@@ -79,6 +79,6 @@
             <Font name="DejaVu Sans Bold" size="20.0" />
          </font>
       </Label>
-      <Button  layoutX="660.0" layoutY="17.0" mnemonicParsing="false" onAction="#SignOut" prefHeight="28.0" prefWidth="95.0" style="-fx-background-color: #f52323; -fx-text-fill: white;" text="Sign out" />
+      <Button layoutX="660.0" layoutY="17.0" mnemonicParsing="false" onAction="#SignOut" prefHeight="28.0" prefWidth="95.0" style="-fx-background-color: #f52323; -fx-text-fill: white;" text="Sign out" />
    </children>
 </fx:root>

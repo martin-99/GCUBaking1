@@ -22,7 +22,7 @@ public class AddCustomerModel {
 
         Connection connection = SQLiteConnection.Connector();
         PreparedStatement preparedStatement = null;
-        String query = "INSERT INTO student(name,surname,phone,email) VALUES(?,?,?,?)";
+        String query = "INSERT INTO customer(name,surname,phone,email) VALUES(?,?,?,?)";
         try {
 
             assert connection != null;

@@ -52,9 +52,20 @@ public void AddCustomer(ActionEvent event) throws IOException {
 
 
     Pane scene = loader.load(getClass().getResource("/sample/View/AddCustomer.fxml").openStream());
-    primaryStage.setTitle("Add Student");
+    primaryStage.setTitle("Add Customer");
+    primaryStage.setScene(new Scene(scene));
+    primaryStage.show();
+}
+public void ViewCustomer(ActionEvent event) throws IOException {
+    ((Node)event.getSource()).getScene().getWindow().hide();
+    Stage primaryStage = new Stage();
+    FXMLLoader loader = new FXMLLoader();
+    Pane scene = loader.load(getClass().getResource("/sample/View/ViewCustomers.fxml").openStream());
+    primaryStage.setTitle("View Customer");
     primaryStage.setScene(new Scene(scene));
     primaryStage.show();
 }
 
 }
+
+
