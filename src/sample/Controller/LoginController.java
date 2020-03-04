@@ -74,6 +74,7 @@ public class LoginController implements Initializable {
                         System.out.println("It stays in else and given pass is " + password.getText());
                         password.setText("");
 
+
                     }
 
             }catch(SQLException e){
