@@ -14,7 +14,7 @@ import sample.Model.AddCustomerModel;
 import java.io.IOException;
 import java.sql.SQLException;
 
-public class AddStudentController {
+public class AddCustomerController {
     @FXML
     TextField studentName;
     @FXML

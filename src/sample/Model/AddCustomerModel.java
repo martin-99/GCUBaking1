@@ -22,7 +22,6 @@ public class AddCustomerModel {
 
         Connection connection = SQLiteConnection.Connector();
         PreparedStatement preparedStatement = null;
-        ResultSet resultSet = null;
         String query = "INSERT INTO student(name,surname,phone,email) VALUES(?,?,?,?)";
         try {
 
