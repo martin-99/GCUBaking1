@@ -14,7 +14,7 @@ import java.net.URL;
 import java.sql.*;
 import java.util.Calendar;
 
-public class AddStudentModel {
+public class AddCustomerModel {
 
 
     public void AddCustomer(String name, String surname, String phone, String email) throws SQLException {

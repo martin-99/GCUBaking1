@@ -6,8 +6,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
@@ -50,7 +48,7 @@ public void AddStudent(ActionEvent event) throws IOException {
     FXMLLoader loader = new FXMLLoader();
 
 
-    Pane scene = loader.load(getClass().getResource("/sample/View/AddStudent.fxml").openStream());
+    Pane scene = loader.load(getClass().getResource("/sample/View/AddCustomer.fxml").openStream());
     primaryStage.setTitle("Add Student");
     primaryStage.setScene(new Scene(scene));
     primaryStage.show();

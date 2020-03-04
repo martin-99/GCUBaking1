@@ -9,7 +9,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
-import sample.Model.AddStudentModel;
+import sample.Model.AddCustomerModel;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -26,7 +26,7 @@ public class AddStudentController {
 
 
     public void AddCustomer(ActionEvent actionEvent) throws SQLException {
-        AddStudentModel studentModel = new AddStudentModel();
+        AddCustomerModel studentModel = new AddCustomerModel();
         studentModel.AddCustomer(studentName.getText(),studentSurname.getText(),studentPhone.getText(),studentEmail.getText());
 
     }

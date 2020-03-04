@@ -63,7 +63,7 @@ public class LoginController implements Initializable {
                         primaryStage.setTitle("Admin Panel");
                         primaryStage.setScene(new Scene(scene));
                         primaryStage.show();
-                        System.out.println("pass with password  " + password.getText());
+
 
 
 
@@ -71,10 +71,7 @@ public class LoginController implements Initializable {
                         isConnected.setText("Wrong username and/or password ");
                         isConnected.setStyle("-fx-background-color: #f52323");
                         isConnected.setTextFill(Paint.valueOf("white"));
-                        System.out.println("It stays in else and given pass is " + password.getText());
                         password.setText("");
-
-
                     }
 
             }catch(SQLException e){
