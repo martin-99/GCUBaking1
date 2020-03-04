@@ -1,8 +1,9 @@
-package sample;
+package sample.Controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
+import sample.Model.AddStudentModel;
 
 import java.sql.SQLException;
 

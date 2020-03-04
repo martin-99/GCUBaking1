@@ -1,4 +1,4 @@
-package sample;
+package sample.Controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -35,7 +35,7 @@ public void SignOut(ActionEvent event) throws IOException {
         ((Node)event.getSource()).getScene().getWindow().hide();
         Stage primaryStage = new Stage();
         FXMLLoader loader = new FXMLLoader();
-        Pane scene = loader.load(getClass().getResource("Login.fxml").openStream());
+        Pane scene = loader.load(getClass().getResource("/sample/View/Login.fxml").openStream());
         primaryStage.setTitle("Login");
         primaryStage.setScene(new Scene(scene));
         primaryStage.show();
@@ -51,7 +51,7 @@ public void AddStudent(ActionEvent event) throws IOException {
     FXMLLoader loader = new FXMLLoader();
 
 
-    Pane scene = loader.load(getClass().getResource("AddStudent.fxml").openStream());
+    Pane scene = loader.load(getClass().getResource("/sample/View/AddStudent.fxml").openStream());
     primaryStage.setTitle("Add Student");
     primaryStage.setScene(new Scene(scene));
     primaryStage.show();

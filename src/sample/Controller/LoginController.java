@@ -1,4 +1,4 @@
-package sample;
+package sample.Controller;
 
 
 import javafx.event.ActionEvent;
@@ -14,7 +14,8 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Paint;
 import javafx.stage.Stage;
-import sample.LoginModel;
+import sample.Controller.AdminPanelController;
+import sample.Model.LoginModel;
 
 import java.io.IOException;
 import java.net.URL;
@@ -58,7 +59,7 @@ public class LoginController implements Initializable {
           Stage primaryStage = new Stage();
            FXMLLoader loader = new FXMLLoader();
            loader.setRoot(new AnchorPane());
-           Pane scene = loader.load(getClass().getResource("Admin.fxml").openStream());
+           Pane scene = loader.load(getClass().getResource("/sample/View/Admin.fxml").openStream());
           AdminPanelController adminPanelController = (AdminPanelController)loader.getController();
            primaryStage.setTitle("Admin Panel");
            primaryStage.setScene(new Scene(scene));

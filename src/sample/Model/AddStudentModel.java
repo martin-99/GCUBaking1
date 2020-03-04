@@ -1,8 +1,9 @@
-package sample;
+package sample.Model;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
+import sample.SQLiteConnection;
 
 import javax.xml.soap.Text;
 import java.awt.*;
