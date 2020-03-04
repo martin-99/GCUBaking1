@@ -22,10 +22,9 @@ AdminPanelController implements Initializable {
 
     }
 
-    /**
-     *
-     * @param event
-     * @throws IOException
+   
+    /*
+    Following method will change our Scene to Login in Action event to our button
      */
 @FXML
 public void SignOut(ActionEvent event) throws IOException {
@@ -42,7 +41,11 @@ public void SignOut(ActionEvent event) throws IOException {
     }
 
 }
-public void AddStudent(ActionEvent event) throws IOException {
+
+    /*
+       Following method will change our Scene to AddCustomer event to our button
+        */
+public void AddCustomer(ActionEvent event) throws IOException {
     ((Node)event.getSource()).getScene().getWindow().hide();
     Stage primaryStage = new Stage();
     FXMLLoader loader = new FXMLLoader();

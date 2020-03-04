@@ -26,6 +26,15 @@ import java.util.ResourceBundle;
 import static javafx.fxml.FXMLLoader.load;
 
 public class LoginController implements Initializable {
+
+    /*
+     In following rows we create instance of each element of our Log in form
+     such as username,password
+     We will use the logic from the LoginModel class
+     to check if Database is connected
+     and if there are users with username and password provided in our Log in form
+     */
+
     @FXML
     AnchorPane rootPane;
     public LoginModel loginModel = new LoginModel();
@@ -38,7 +47,10 @@ public class LoginController implements Initializable {
     private PasswordField password;
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        // Check if db is connected
+        /* Check if db is connected
+           and if it is the our label will print message
+           Connected if not will execute else statement
+         */
         if (loginModel.isDbConnected()){
             isConnected.setText("Connected");
         }
@@ -47,6 +59,16 @@ public class LoginController implements Initializable {
         }
 
     }
+    /*
+    Following method receives ActionEvent
+    then will check if the result of method isLogin in the  instance of LoginModel
+    returns true with parameters username and password from Log in scene
+
+    If it returns true will execute our if statement and will change our Scene
+    closing Log in Scene
+
+    if not Label will change it's colour and text
+     */
     @FXML
     public void Login(ActionEvent event) {
         try {

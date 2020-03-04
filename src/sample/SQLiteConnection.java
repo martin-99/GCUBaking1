@@ -8,7 +8,7 @@ public static Connection Connector(){
     try {
         //Connect to the Database
         Class.forName("org.sqlite.JDBC");
-        Connection conn = DriverManager.getConnection("jdbc:sqlite:src/sample/database/GCUBaking.db");
+        Connection conn = DriverManager.getConnection("jdbc:sqlite:src/sample/database/GCUBaking.db"); //path to our Database
         return conn;
 
     }catch (Exception e){

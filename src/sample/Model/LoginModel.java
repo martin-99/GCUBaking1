@@ -8,13 +8,16 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class LoginModel {
+        // Create instance of our Connection class
         Connection connection;
 
 public LoginModel(){
+        //runnig methot connector to connect to db
         connection = SQLiteConnection.Connector();
         if (connection==null)System.exit(1);
         }
 
+        //Checking if our db is closed and  returning the opposite
 public boolean isDbConnected() {
         try {
         return !connection.isClosed();
@@ -24,6 +27,19 @@ public boolean isDbConnected() {
         return false;
         }
         }
+        /*
+          isLogin is our main method
+          @params
+          user and pass are our username and password from our Login scene form
+          PreparedStatement is pre build class in JDBC package which contains methods as execute
+          our variable query contains string with sqlite query in this case we select every row of our
+          employee table where username and password are equal to our parameter variables
+          then execute the query and if there are rows with these parameters we return true
+
+          In finally statement we close our prepareted statment and result set in order to use our db
+          in other part of our application
+
+         */
 public boolean isLogin(String user,String pass) throws SQLException {
         PreparedStatement preparedStatement = null;
         ResultSet resultSet = null;
