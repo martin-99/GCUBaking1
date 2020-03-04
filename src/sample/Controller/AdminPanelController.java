@@ -39,7 +39,6 @@ public void SignOut(ActionEvent event) throws IOException {
         primaryStage.setTitle("Login");
         primaryStage.setScene(new Scene(scene));
         primaryStage.show();
-       
     }catch (Exception e){
        e.printStackTrace();
     }

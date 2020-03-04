@@ -10,6 +10,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Paint;
@@ -49,41 +50,42 @@ public class LoginController implements Initializable {
     @FXML
     public void Login(ActionEvent event) {
         try {
-            if (loginModel.isLogin(username.getText(), password.getText())) {
+                    if (loginModel.isLogin(username.getText(), password.getText())) {
+                        isConnected.setText("Correct username and password");
+                        isConnected.setStyle("-fx-background-color: #2196F3");
 
-
-          isConnected.setText("Correct username and password");
-          isConnected.setStyle("-fx-background-color: #2196F3");
-
-          ((Node)event.getSource()).getScene().getWindow().hide();
-          Stage primaryStage = new Stage();
-           FXMLLoader loader = new FXMLLoader();
-           loader.setRoot(new AnchorPane());
-           Pane scene = loader.load(getClass().getResource("/sample/View/Admin.fxml").openStream());
-          AdminPanelController adminPanelController = (AdminPanelController)loader.getController();
-           primaryStage.setTitle("Admin Panel");
-           primaryStage.setScene(new Scene(scene));
-           primaryStage.show();
-
-
+                        ((Node) event.getSource()).getScene().getWindow().hide();
+                        Stage primaryStage = new Stage();
+                        FXMLLoader loader = new FXMLLoader();
+                        loader.setRoot(new AnchorPane());
+                        Pane scene = loader.load(getClass().getResource("/sample/View/Admin.fxml").openStream());
+                        AdminPanelController adminPanelController = (AdminPanelController) loader.getController();
+                        primaryStage.setTitle("Admin Panel");
+                        primaryStage.setScene(new Scene(scene));
+                        primaryStage.show();
+                        System.out.println("pass with password  " + password.getText());
 
 
 
+                    } else {
+                        isConnected.setText("Wrong username and/or password ");
+                        isConnected.setStyle("-fx-background-color: #f52323");
+                        isConnected.setTextFill(Paint.valueOf("white"));
+                        System.out.println("It stays in else and given pass is " + password.getText());
+                        password.setText("");
 
-            } else {
-               isConnected.setText("Wrong username and/or password ");
-               isConnected.setStyle("-fx-background-color: #f52323");
-               isConnected.setTextFill(Paint.valueOf("white"));
+                    }
 
+            }catch(SQLException e){
+                isConnected.setText("Username and password is not correct");
+                System.out.println("it stays in catch");
+                e.printStackTrace();
 
+            } catch(IOException e){
+                e.printStackTrace();
             }
-        }catch (SQLException e){
-            isConnected.setText("Username and password is not correct");
-            e.printStackTrace();
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
 
     }
     public void Loggin(){
