@@ -32,9 +32,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sample/lib/sqlite-jdbc-3.30.1.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -43,7 +43,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/Downloads/IP1/CommonFiles/JDK64" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
       <module name="GCUBaking" />
@@ -83,6 +83,7 @@
       <updated>1583337405889</updated>
       <workItem from="1583337411927" duration="4496000" />
       <workItem from="1583366117282" duration="2651000" />
+      <workItem from="1583401550919" duration="2010000" />
     </task>
     <servers />
   </component>
@@ -90,34 +91,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583337486568">
+    <state x="23" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583401644738">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583337486568" />
+    <state x="23" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583401644738" />
     <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583337482279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1583337482279" />
-    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1583366855436">
+    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1583401685536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583366855436" />
-    <state width="857" height="176" key="GridCell.Tab.0.bottom" timestamp="1583368756821">
+    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583401685536" />
+    <state width="1323" height="163" key="GridCell.Tab.0.bottom" timestamp="1583403885246">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="857" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583368756821" />
-    <state width="857" height="176" key="GridCell.Tab.0.center" timestamp="1583368756821">
+    <state width="1323" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583403885246" />
+    <state width="1323" height="163" key="GridCell.Tab.0.center" timestamp="1583403885246">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="857" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583368756821" />
-    <state width="857" height="176" key="GridCell.Tab.0.left" timestamp="1583368756821">
+    <state width="1323" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583403885246" />
+    <state width="1323" height="163" key="GridCell.Tab.0.left" timestamp="1583403885246">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="857" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583368756821" />
-    <state width="857" height="176" key="GridCell.Tab.0.right" timestamp="1583368756821">
+    <state width="1323" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583403885246" />
+    <state width="1323" height="163" key="GridCell.Tab.0.right" timestamp="1583403885246">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="857" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583368756821" />
+    <state width="1323" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583403885246" />
     <state width="1286" height="203" key="GridCell.Tab.1.bottom" timestamp="1583339119003">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -134,14 +135,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="203" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583339119003" />
-    <state x="0" y="0" key="SettingsEditor" timestamp="1583366859696">
+    <state x="0" y="0" key="SettingsEditor" timestamp="1583401689134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583366859696" />
-    <state x="384" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1583366332481">
+    <state x="0" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583401689134" />
+    <state x="384" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1583401552939">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583366332481" />
+    <state x="384" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583401552939" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

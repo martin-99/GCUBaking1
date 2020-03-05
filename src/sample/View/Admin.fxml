@@ -60,7 +60,7 @@
                   <Image url="@/sample/static/user_100px.png" />
                </image>
             </ImageView>
-            <Button layoutY="142.0" onAction="#ViewCustomer" prefHeight="28.0" prefWidth="200.0" style="-fx-background-color: #2196F3; -fx-text-fill: white;" text="View Users" />
+            <Button layoutY="142.0" onAction="#ViewCustomer" prefHeight="28.0" prefWidth="200.0" style="-fx-background-color: #2196F3; -fx-text-fill: white;" text="View Customers" />
          </children>
       </Pane>
       <Pane layoutX="529.0" layoutY="361.0" prefHeight="170.0" prefWidth="200.0" style="-fx-background-color: #fff;">
