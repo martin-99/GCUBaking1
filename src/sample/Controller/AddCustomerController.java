@@ -6,6 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
@@ -15,6 +16,7 @@ import sample.Model.AddCustomerModel;
 
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.concurrent.TimeUnit;
 
 public class AddCustomerController {
     @FXML
@@ -27,9 +29,10 @@ public class AddCustomerController {
     TextField studentEmail;
     @FXML
     Button succesBtn;
+   
 
 
-    public void AddCustomer(ActionEvent actionEvent) throws SQLException {
+    public void AddCustomer(ActionEvent actionEvent) throws SQLException, InterruptedException {
         AddCustomerModel studentModel = new AddCustomerModel();
         studentModel.AddCustomer(studentName.getText(),studentSurname.getText(),studentPhone.getText(),studentEmail.getText());
 
@@ -37,6 +40,8 @@ public class AddCustomerController {
         studentSurname.setText("");
         studentPhone.setText("");
         studentEmail.setText("");
+
+
 
 
 
